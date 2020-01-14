@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unbenannte Seite</title>
+<meta name="generator" content="WYSIWYG Web Builder 10 - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="default/jquery.mobile.theme-1.4.5.css" rel="stylesheet">
+<link href="default/jquery.mobile.icons-1.4.5.min.css" rel="stylesheet">
+<link href="jquery.mobile.structure-1.4.5.min.css" rel="stylesheet">
+<link href="Unbenannt1_mobile.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.11.1.min.js"></script>
+<script>
+$(document).on("mobileinit", function()
+{
+   $.mobile.ajaxEnabled = false;
+});
+</script>
+<script src="jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" data-theme="a" data-title="Unbenannte Seite" id="index">
+<div class="ui-content" role="main">
+<div id="wb_Text1">
+<span style="color:#000000;font-family:Arial;font-size:53px;">GinoAPP</span>
+</div>
+<div class="ui-field-contain">
+<fieldset>
+<div data-role="fieldcontain">
+<label for="FlipSwitch1">Überwachung</label>
+<input data-off-text="Aus" data-on-text="An" data-role="flipswitch" id="FlipSwitch1" name="" type="checkbox" value="">
+</div></fieldset>
+</div>
+<div class="ui-field-contain">
+<fieldset>
+<div data-role="fieldcontain">
+<label for="FlipSwitch2">Energie</label>
+<input data-off-text="Aus" data-on-text="An" data-role="flipswitch" id="FlipSwitch2" name="" type="checkbox" value="">
+</div></fieldset>
+</div>
+<label for="Slider1"></label>
+<input data-role="slider" type="range" id="Slider1" name="" value="0" min="0" max="100" step="1">
+<label for="FileUpload1"></label>
+<input type="file" id="FileUpload1" style="" name="FileUpload1">
+</div>
+</div>
+</body>
+</html>
